@@ -42,7 +42,15 @@ namespace GrandPaClub42.Data
 				10,
 				"I only want to be evaluated by the on-site people!",
 				"Honorary Grandpa"
-				)
+				),
+			new GrandPa(
+				5,
+				"Dejan",
+				"Zivanov",
+				30,
+				"I want work in Germany",
+				"I heff question!"
+				),
 		};
 
 		public GrandPa GetGrandPa(int id)
