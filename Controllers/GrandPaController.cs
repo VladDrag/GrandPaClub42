@@ -4,13 +4,21 @@ using System.Diagnostics;
 
 namespace GrandPaClub42.Controllers
 {
-	public class HomeController : Controller
+	public class GrandPaController : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
+		//private readonly ILogger<GrandPaController> _logger;
 
-		public HomeController(ILogger<HomeController> logger)
+		//public GrandPaController(ILogger<GrandPaController> logger)
+		//{
+		//	_logger = logger;
+
+		//}
+		public GrandPaController()
 		{
-			_logger = logger;
+			GrandPa grandPa = new GrandPa()
+			{
+
+			};
 		}
 
 		public IActionResult Index()
