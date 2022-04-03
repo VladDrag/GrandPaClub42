@@ -2,28 +2,27 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
+
 namespace GrandPaClub42.Controllers
 {
 	public class GrandPaController : Controller
 	{
-		//private readonly ILogger<GrandPaController> _logger;
-
-		//public GrandPaController(ILogger<GrandPaController> logger)
-		//{
-		//	_logger = logger;
-
-		//}
+		private GrandPa _grandPa = null;
 		public GrandPaController()
 		{
-			GrandPa grandPa = new GrandPa()
-			{
-
-			};
+			_grandPa = new GrandPa(
+				0,
+				"Vlad",
+				"Dragomir",
+				31,
+				"Sounds like a you-problem, lad!",
+				"Good of it");
 		}
 
 		public IActionResult Index()
 		{
-			return View();
+			var grandPa = _grandPa;
+			return View(grandPa);
 		}
 
 		public IActionResult Privacy()
