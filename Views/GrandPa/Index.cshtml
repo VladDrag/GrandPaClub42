@@ -1,10 +1,22 @@
-﻿@model GrandPaClub42.Models.GrandPa
+﻿@model GrandPaClub42.Models.GrandPa[]
 
 @{
     ViewData["Title"] = "The Amazing GrandPas";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome, ye old souls!</h1>
-        <h2> @Model.DisplayName</h2>
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    @foreach (var grandPa in Model)
+    {
+        <div class="col-md-5">
+            <h4>@Html.ActionLink(grandPa.DisplayName, "Detail", new {id = grandPa.Id})</h4>
+            <a href="@Url.Action( "Detail", new {id = grandPa.Id} )">
+                <div> @grandPa.GetImageID</div>
+                <img src="/Images/@grandPa.GetImageID"
+                    alt="@grandPa.DisplayName" 
+                    class="img-responsive" />
+            </a>
+        </div>
+    }
 </div>

@@ -23,7 +23,14 @@
 		{
 			get
 			{
-				return FirstName + " \"" + NickName + "\" " + LastName + ", " + Age;
+				return FirstName + " " + LastName;
+			}
+		}
+		public string DisplayNick
+		{
+			get
+			{
+				return FirstName + " \"" + NickName + "\" " + LastName;
 			}
 		}
 
@@ -32,6 +39,14 @@
 			get
 			{
 				return "Likes to say" + " \"" + PreferredQuote + "\" ";
+			}
+		}
+
+		public string GetImageID
+		{
+			get
+			{
+				return FirstName + " " + LastName[0] + ".jpg";
 			}
 		}
 	}

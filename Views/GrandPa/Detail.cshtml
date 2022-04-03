@@ -1,0 +1,18 @@
+﻿@model GrandPaClub42.Models.GrandPa
+
+<h2>@Model.DisplayName</h2>
+
+<div class="row">
+	<div class="col-md-6">
+		<div class="well">
+			<h5><label>Grandfather's name':</label>@Model.DisplayName</h5>
+			<h5><label>Age :</label>@Model.Age</h5>
+		</div>
+			<h5>Description:</h5>
+			<div>@Model.DisplayInfo</div>
+	</div>
+	<div class="col-md-6">
+		<img src="/Images/@Model.GetImageID"
+			alt="@Model.DisplayName" class="img-responsive" />
+	</div>
+</div>
