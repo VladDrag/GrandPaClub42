@@ -38,7 +38,7 @@
 		{
 			get
 			{
-				return "Likes to say" + " \"" + PreferredQuote + "\" ";
+				return "Likes to say: " + " \"" + PreferredQuote + "\" ";
 			}
 		}
 

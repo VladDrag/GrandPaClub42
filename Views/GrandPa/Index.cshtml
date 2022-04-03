@@ -9,14 +9,16 @@
 <div class="row">
     @foreach (var grandPa in Model)
     {
-        <div class="col-md-5">
+        <div class="col-md-4">
             <h4>@Html.ActionLink(grandPa.DisplayName, "Detail", new {id = grandPa.Id})</h4>
             <a href="@Url.Action( "Detail", new {id = grandPa.Id} )">
-                <div> @grandPa.GetImageID</div>
                 <img src="/Images/@grandPa.GetImageID"
                     alt="@grandPa.DisplayName" 
-                    class="img-responsive" />
+                    class="img-responsive" 
+                    width="300"
+                    height="300"/>
             </a>
+            <h4>@grandPa.PreferredQuote</h4>
         </div>
     }
 </div>

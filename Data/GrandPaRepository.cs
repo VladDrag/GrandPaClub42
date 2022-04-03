@@ -25,8 +25,9 @@ namespace GrandPaClub42.Data
 				"Evangelos",
 				"Spyromilios",
 				60,
-				"Where my Blockchain at?",
-				"Ο υπέροχος κώδικας του Vlad μου θύμισε έντονα τα Mititei."),
+				"Ο υπέροχος κώδικας του Vlad μου θύμισε έντονα τα Mititei.",
+				"Where my Blockchain at?"
+				),
 			new GrandPa(
 				3,
 				"Kostas",
@@ -39,8 +40,9 @@ namespace GrandPaClub42.Data
 				"Alistair",
 				"Kane",
 				10,
-				"Honorary Grandpa",
-				"I only want to be evaluated by the on-site people!")
+				"I only want to be evaluated by the on-site people!",
+				"Honorary Grandpa"
+				)
 		};
 
 		public GrandPa GetGrandPa(int id)
