@@ -11,44 +11,44 @@ namespace GrandPaClub42.Data
 				"Vlad",
 				"Dragomir",
 				31,
-				"Sounds like a you-problem, lad!",
+				"I'm old!",
 				"Good of it"),
 			new GrandPa(
 				1,
 				"Bethan",
 				"Williams",
 				30,
-				"Castra's the best, sanction the rest!",
+				"Ydych chi eisiau siarad Cymraeg?",
 				"Big Willy"),
 			new GrandPa(
 				2,
 				"Evangelos",
 				"Spyromilios",
 				60,
-				"Ο υπέροχος κώδικας του Vlad μου θύμισε έντονα τα Mititei.",
-				"Where my Blockchain at?"
+				"I unironically watch Formula 1.",
+				"Have you heard of Solidity?"
 				),
 			new GrandPa(
 				3,
 				"Kostas",
 				"Chaniotakis",
 				80,
-				"Ο Χριστός της Μητέρας σου",
+				"Ο Χριστός της Μητέρας σου!",
 				"Griechischer Wein"),
 			new GrandPa(
 				4,
 				"Alistair",
 				"Kane",
 				10,
-				"I only want to be evaluated by the on-site people!",
-				"Honorary Grandpa"
+				"Only on-site people evaluate me!",
+				"Honorary Grandpa-child"
 				),
 			new GrandPa(
 				5,
 				"Dejan",
 				"Zivanov",
 				30,
-				"I want work in Germany",
+				"I want work in Europe.",
 				"I heff question!"
 				),
 		};
