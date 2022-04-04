@@ -11,7 +11,7 @@ namespace GrandPaClub42.Data
 				"Vlad",
 				"Dragomir",
 				31,
-				"I'm old!",
+				"Back in my day...",
 				"Good of it"),
 			new GrandPa(
 				1,
@@ -51,6 +51,21 @@ namespace GrandPaClub42.Data
 				"I want work in Europe.",
 				"I heff question!"
 				),
+			new GrandPa(
+				6,
+				"Tim",
+				"Gerdes",
+				31,
+				"Haha, Bee-thong!",
+				"Calm down, Charlie!"
+				),
+			new GrandPa(
+				7,
+				"Valentin",
+				"Simeonov",
+				35,
+				"Why, yes, I do speak network binary.",
+				"TCP/IP")
 		};
 
 		public GrandPa GetGrandPa(int id)
