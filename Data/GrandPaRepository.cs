@@ -9,21 +9,21 @@ namespace GrandPaClub42.Data
 			new GrandPa(
 				0,
 				"Vlad",
-				"Dragomir",
+				"D",
 				31,
 				"Back in my day...",
 				"Good of it"),
 			new GrandPa(
 				1,
 				"Bethan",
-				"Williams",
+				"W",
 				30,
 				"Ydych chi eisiau siarad Cymraeg?",
 				"Big Willy"),
 			new GrandPa(
 				2,
 				"Evangelos",
-				"Spyromilios",
+				"S",
 				60,
 				"I unironically watch Formula 1.",
 				"Have you heard of Solidity?"
@@ -31,14 +31,14 @@ namespace GrandPaClub42.Data
 			new GrandPa(
 				3,
 				"Kostas",
-				"Chaniotakis",
+				"C",
 				80,
 				"Ο Χριστός της Μητέρας σου!",
 				"Griechischer Wein"),
 			new GrandPa(
 				4,
 				"Alistair",
-				"Kane",
+				"K",
 				10,
 				"Only on-site people evaluate me!",
 				"Honorary Grandpa-child"
@@ -46,7 +46,7 @@ namespace GrandPaClub42.Data
 			new GrandPa(
 				5,
 				"Dejan",
-				"Zivanov",
+				"Z",
 				30,
 				"I want work in Europe.",
 				"I heff question!"
@@ -54,7 +54,7 @@ namespace GrandPaClub42.Data
 			new GrandPa(
 				6,
 				"Tim",
-				"Gerdes",
+				"G",
 				31,
 				"Haha, Bee-thong!",
 				"Calm down, Charlie!"
@@ -62,7 +62,7 @@ namespace GrandPaClub42.Data
 			new GrandPa(
 				7,
 				"Valentin",
-				"Simeonov",
+				"S",
 				35,
 				"Why, yes, I do speak network binary.",
 				"TCP/IP")
